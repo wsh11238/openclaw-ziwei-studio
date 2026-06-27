@@ -6,6 +6,13 @@ A polished static capture of an interactive charting workflow: form input, state
 
 ![Interactive charting tool preview](docs/screenshot.png)
 
+
+## Visual Tour | 图像导览
+
+| Product Highlights | Build / Remix Flow |
+|---|---|
+| ![Product highlights](docs/feature-map.png) | ![Build and remix flow](docs/workflow-map.png) |
+
 ## Why Star This | 为什么值得 Star
 
 - A compact reference for building beautiful form-heavy tools without a heavy backend.
