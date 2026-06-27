@@ -1,46 +1,59 @@
-# OpenClaw Ziwei Studio | 互动排盘界面模板
+# OpenClaw 紫微互动工具界面
 
-A polished static capture of an interactive charting workflow: form input, state selection, mobile layout, and result-oriented interface design.
+一个以“输入信息 -> 生成结果”为核心的互动排盘工具前端模板，展示表单输入、状态选择、移动端布局、导航模块和结果导向的产品体验。
 
-一个适合学习的互动工具界面模板：包含出生信息表单、选择控件、移动端布局、结果导向的交互流程和静态部署结构。
+**English introduction:** [README_EN.md](README_EN.md)
 
-![Interactive charting tool preview](docs/screenshot.png)
-
+![项目预览](docs/screenshot.png)
 
 ## 页面截图
 
-下面两张图都是从本仓库真实页面生成的中文截图，方便快速判断项目实际效果。
+下面两张图都来自本仓库真实页面渲染：第一张展示首屏效果，第二张展示继续滚动后的功能内容。
 
-| 页面截图 1 | 页面截图 2 |
+| 首屏截图 | 第二屏截图 |
 |---|---|
-| ![真实中文网页截图 1](docs/screenshot-2.png) | ![真实中文网页截图 2](docs/screenshot-3.png) |
+| ![真实中文网页首屏](docs/screenshot-2.png) | ![真实中文网页第二屏](docs/screenshot-3.png) |
 
-## Why Star This | 为什么值得 Star
+## 系统功能总览
 
-- A compact reference for building beautiful form-heavy tools without a heavy backend.
-- Useful for astrology, questionnaire, calculator, onboarding, and result-generation products.
-- Includes production-style static assets from a real interactive interface.
-- 适合研究“输入信息 -> 生成结果”这一类工具型产品的首屏体验。
+这个项目保留了一个完整互动工具的前端形态。它适合研究表单型产品如何让用户从输入信息进入结果页，也适合改造成测算工具、问卷工具、入门诊断、生成式报告和轻量互动产品。
 
-## What Is Inside | 项目内容
+## 核心功能
 
-- `index.html`: static app shell.
-- `assets/`: bundled CSS and JavaScript.
-- `icon-192.png`, `favicon.*`: app icons.
-- `docs/screenshot.png`: repository preview image.
+- **命盘解读入口**：首屏聚焦出生日期、出生时辰、性别、出生地等结构化信息输入。
+- **日期选择控件**：用年份、月份、日期下拉选择构建稳定输入流程。
+- **时辰选择控件**：提供出生时辰选择，适合学习复杂选项表单的组织方式。
+- **性别切换控件**：用分段选择呈现二选一状态。
+- **出生地输入**：保留可选地点输入，为精度提升和后续扩展留下接口。
+- **结果生成按钮**：把“开始排盘”作为明确行动入口，适合套用到各种测算工具。
+- **多模块导航**：包含命盘解读、年度运势、人生长线、双人合盘、分享卡片等顶部功能入口。
+- **设置入口**：保留右上角设置按钮，适合扩展主题、偏好、分享、账号等功能。
+- **移动端优先布局**：表单区域在桌面和移动端都保持聚焦，适合研究工具型产品首屏体验。
+- **静态资源结构**：打包后的 CSS、JS、图标和 favicon 已整理，可直接部署。
 
-## Best Use Cases | 适合做什么
+## 适合改造成什么
 
-- Interactive form products
-- Static calculators and result pages
-- Mobile-first landing tools
-- Lightweight product prototypes
-- 表单工具、测算页面、移动端交互原型、结果生成类产品
+- 命理/星盘/测算类工具
+- 问卷诊断或报告生成页面
+- 用户 onboarding 表单
+- 计算器和结果页产品
+- 移动端互动营销工具
 
-## Quick Start | 快速开始
+## 目录说明
 
-Open `index.html` directly in a browser, or deploy the folder to any static hosting platform.
+- `index.html`：静态应用入口。
+- `assets/`：打包后的 CSS 和 JavaScript。
+- `icon-192.png`、`favicon.*`：应用图标和浏览器图标。
+- `docs/`：项目截图和展示图片。
 
-## Public Safety | 公开安全说明
+## 快速开始
 
-Private deployment URLs, tokens, local state, and hosting identifiers were removed before publication.
+直接打开 `index.html`，或部署到任意静态托管平台。
+
+## 公开安全说明
+
+这个公开版本已经移除真实部署地址、生产密钥、Cloudflare token、本地环境文件、日志、`.wrangler`、`node_modules` 和任何不适合公开的私有信息。你可以放心把它当作学习、参考和二次开发的起点。
+
+## 推荐 Star 的理由
+
+如果你正在做类似产品，这个仓库不是只能看一眼的截图，而是能直接 Fork 的结构样板：页面、数据、组件、交互和说明文档都已经整理好，可以节省从 0 到 1 搭骨架的时间。
