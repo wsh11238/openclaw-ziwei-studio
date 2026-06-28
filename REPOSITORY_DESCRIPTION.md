@@ -1,1 +1,1 @@
-紫微互动工具界面：出生日期/时辰/性别/地点输入、命盘解读入口、多模块导航、移动端布局和结果生成流程，适合改造成测算、问卷、诊断和报告类产品。
+Polished static frontend template for input-to-result tools, calculators, form workflows, and generated reports.

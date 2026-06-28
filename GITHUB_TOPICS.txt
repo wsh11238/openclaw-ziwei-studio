@@ -1,1 +1,9 @@
-interactive-form,static-site,mobile-ui,calculator,product-template,cloudflare-pages
+interactive-tool
+static-site
+frontend
+form-ui
+calculator
+mobile-first
+react
+product-design
+chinese

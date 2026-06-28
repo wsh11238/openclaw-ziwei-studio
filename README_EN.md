@@ -4,7 +4,21 @@ A polished static frontend template for input-to-result tools, form workflows, m
 
 **中文介绍:** [README.md](README.md)
 
-![Project preview](docs/screenshot.png)
+![Demo](docs/demo.gif)
+
+## At A Glance
+
+**A polished input-to-result frontend template for calculators, forms, and generated reports.**
+
+- Useful for calculators, questionnaires, AI reports, form-heavy products, and mobile-first interactive pages.
+- Form flow, navigation, result screen, settings entry, and share-card structure are already in place.
+- Reuse the visual system and input workflow for your own generated tool.
+
+## Fork It In 30 Seconds
+
+Fork it, replace the fields, logic, and result view, then ship your own interactive report product.
+
+> If this saves you from rebuilding the same product skeleton later, consider starring the repo.
 
 ## Screenshots
 
